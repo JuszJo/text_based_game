@@ -1,7 +1,10 @@
 {
     "q": "Move left or right \n\n1. left \n2. right",
     "1": {
-        "gains": "hp",
+        "gains": {
+            "type": "hp",
+            "amount": 10
+        },
         "q": "end or stay \n\n1. end \n2. stay",
         "1": {
             "lose": "lose hp"
@@ -11,6 +14,9 @@
         }
     },
     "2": {
-        "gains": "mana"
+        "gains": {
+            "type": "mp",
+            "amount": 10
+        }
     }
 }

@@ -9,3 +9,9 @@ class Player:
 
     def show_stats(self):
         print(self.get_stats() + "\n")
+
+    def use_gains(self, type, amount):
+        if type is "hp":
+            self.hp += amount
+        else:
+            self.mp += amount
