@@ -1,0 +1,16 @@
+{
+    "q": "Move left or right \n\n1. left \n2. right",
+    "1": {
+        "gains": "gain hp",
+        "q": "end or stay \n\n1. end \n2. stay",
+        "1": {
+            "lose": "lose hp"
+        },
+        "2": {
+            "stay": "stay"
+        }
+    },
+    "2": {
+        "gains": "gain mana"
+    }
+}
