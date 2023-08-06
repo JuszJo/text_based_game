@@ -1,0 +1,53 @@
+{
+    "q": "In the enchanting realm of Mystoria, a young hero named Lila embarked on an extraordinary adventure. Guided by an ancient prophecy, Lila sought to restore the balance of magic and light to the world, which had been threatened by an ancient darkness. As Lila traversed through the mystical woods, the path diverged, leading to two distinct ways. Contemplating the decision ahead, the young hero bravely chose the path to the right, drawn by a faint whisper echoing through the trees. \n\nEmbrace the moon's glow or follow the sun's path? \n\n1. Embrace the moon's glow \n2. Follow the sun's path",
+    "1": {
+        "q": "Lila felt a surge of lunar energy coursing through her veins, empowering her with newfound magical prowess. As the journey continued, Lila encountered a magical riddle guarded by a guardian spirit. Solving the riddle was crucial to progress further on the quest. \n\nSeek the wisdom of the stars or listen to the whispers of the ancient trees? \n\n1. Seek the wisdom of the stars \n2. Listen to the whispers of the ancient trees",
+        "1": {
+            "q": "Pondering the choices carefully, Lila chose to seek the wisdom of the stars. The guardian spirit, impressed by Lila's insight, granted her a piece of celestial knowledge that would aid her throughout the quest. \n\nBask in the moon's glow or bathe in the sun's radiance? \n\n1. Bask in the moon's glow \n2. Bathe in the sun's radiance",
+            "1": {
+                "gains": {
+                    "type": "mp",
+                    "amount": 15
+                },
+                "q": "Having chosen the moon's glow before, Lila decided to embrace the warmth of the sun this time, feeling rejuvenated by the fountain's healing powers. Continuing the journey, Lila arrived at a hidden oasis, where a mysterious fountain shimmered with iridescent light. The water within the fountain possessed magical properties that could restore her vitality. \n\nDiscover the Arcane Fire or Unravel the Veil of Illusions? \n\n1. Discover the Arcane Fire \n2. Unravel the Veil of Illusions",
+                "1": {
+                    "skill": {
+                        "name": "Arcane Fire",
+                        "damage": 20,
+                        "cost": 25
+                    },
+                    "q": "Intrigued by the possibilities, Lila opted to discover the Arcane Fire, gaining a powerful offensive spell capable of dealing great damage to adversaries. Continuing the quest, Lila's journey led her to an ancient library, filled with ancient tomes of lost knowledge. Within, she discovered a secret spell of immense power. \n\nFace the Trial of Courage or Solve the Puzzle of Wisdom? \n\n1. Face the Trial of Courage \n2. Solve the Puzzle of Wisdom",
+                    "1": {
+                        "gains": {
+                            "type": "hp",
+                            "amount": 20
+                        },
+                        "q": "Drawing strength from within, Lila chose to face the Trial of Courage, overcoming formidable obstacles and demonstrating unwavering bravery. The gatekeeper bestowed upon her a celestial amulet, enhancing her magical prowess. After overcoming numerous challenges, Lila reached the heart of the ancient darkness, where a final confrontation awaited. The fate of Mystoria hung in the balance as Lila summoned all her newfound powers to combat the malevolent force. In a climactic showdown, Lila's courage, wisdom, and mastery over magic triumphed, banishing the darkness and restoring harmony to Mystoria.",
+                        "end": true
+                    },
+                    "2": {
+                        "gains": {
+                            "type": "mp",
+                            "amount": 30
+                        },
+                        "q": "Intrigued by the possibilities, Lila opted to unravel the Veil of Illusions, gaining insight into the elusive art of illusion magic. The newfound knowledge proved invaluable on her continued journey. Continuing the quest, Lila's path led her to a mysterious crossroads, guarded by a celestial gatekeeper. The gatekeeper offered two unique challenges, each granting different boons. \n\nFace the Trial of Courage or Solve the Puzzle of Wisdom? \n\n1. Face the Trial of Courage \n2. Solve the Puzzle of Wisdom",
+                        "1": {
+                            "gains": {
+                                "type": "hp",
+                                "amount": 20
+                            },
+                            "q": "Drawing strength from within, Lila chose to face the Trial of Courage, overcoming formidable obstacles and demonstrating unwavering bravery. The gatekeeper bestowed upon her a celestial amulet, enhancing her magical prowess. After overcoming numerous challenges, Lila reached the heart of the ancient darkness, where a final confrontation awaited. The fate of Mystoria hung in the balance as Lila summoned all her newfound powers to combat the malevolent force. In a climactic showdown, Lila's courage, wisdom, and mastery over magic triumphed, banishing the darkness and restoring harmony to Mystoria.",
+                            "end": true
+                        },
+                        "2": {
+                            "gains": {
+                                "type": "mp",
+                                "amount": 50
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

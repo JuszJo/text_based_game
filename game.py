@@ -4,7 +4,8 @@ from player import *
 from choices import *
 from skill import *
 
-with open("choices.json", "r") as f: data = json.load(f)
+# with open("choices.json", "r") as f: data = json.load(f)
+with open("prototype.json", "r") as f: data = json.load(f)
 
 choices = Choices(data)
 player = Player()
@@ -33,14 +34,18 @@ def main():
     while game_end == False:
         clear()
 
-        if(choices.current_question == None):
+        player.show_stats()
+
+        if player.new_skill == True: player.alert_new_skill()
+
+        if(choices.data.get("end") == True):
+            print(choices.current_question)
+
+            input("\nPress any key to continue...")
+
             game_end == True
 
-            print("Game End")
-
             break
-
-        player.show_stats()
 
         answer = input(choices.current_question + "\n\nChoice: ");
 
