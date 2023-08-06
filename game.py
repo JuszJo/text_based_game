@@ -5,7 +5,8 @@ from choices import *
 from skill import *
 
 # with open("choices.json", "r") as f: data = json.load(f)
-with open("prototype.json", "r") as f: data = json.load(f)
+# with open("prototype.json", "r") as f: data = json.load(f)
+with open("proto2.json", "r") as f: data = json.load(f)
 
 choices = Choices(data)
 player = Player()
