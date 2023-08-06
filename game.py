@@ -18,7 +18,7 @@ def main():
 
     while game_end == False:
         clear()
-        
+
         if(choices.current_question == None):
             game_end == True
 
@@ -26,7 +26,9 @@ def main():
 
             break
 
-        answer = input(choices.current_question + "\n")
+        player.show_stats()
+
+        answer = input(choices.current_question + "\n\nChoice: ");
 
         choices.next_question(answer)
 
