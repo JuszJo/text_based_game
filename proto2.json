@@ -1,5 +1,5 @@
 {
-    "q": "In the enchanting realm of Mystoria, a young hero named Lila embarked on an extraordinary adventure. Guided by an ancient prophecy, Lila sought to restore the balance of magic and light to the world, which had been threatened by an ancient darkness. As Lila traversed through the mystical woods, the path diverged, leading to two distinct ways. Contemplating the decision ahead, the young hero bravely chose the path to the right, drawn by a faint whisper echoing through the trees. \n\nEmbrace the moon's glow or follow the sun's path? \n\n1. Embrace the moon's glow \n2. Follow the sun's path",
+    "q": "In the enchanting realm of Mystoria, a young hero named Lila embarked on an extraordinary adventure. Guided by an ancient prophecy, Lila sought to restore the balance of magic and light to the world, which had been threatened by an ancient darkness. As Lila traversed through the mystical woods, the path diverged, leading to two distinct ways. Contemplating the decision ahead, the young hero bravely chose the path to the right, drawn by a faint whisper echoing through the trees. \n\nEmbrace the moon's glow or follow the sun's path? \n\n1. Embrace the moon's glow \n2. Follow the sun's path \n3. Random Attack",
     "1": {
         "q": "Lila felt a surge of lunar energy coursing through her veins, empowering her with newfound magical prowess. As the journey continued, Lila encountered a magical riddle guarded by a guardian spirit. Solving the riddle was crucial to progress further on the quest. \n\nSeek the wisdom of the stars or listen to the whispers of the ancient trees? \n\n1. Seek the wisdom of the stars \n2. Listen to the whispers of the ancient trees",
         "1": {
@@ -216,6 +216,14 @@
                 },
                 "q": "Lila's profound understanding of the Puzzle of Wisdom granted her a deep connection to the mystical energies of the world. The gatekeeper rewarded her with an abundance of magical power, allowing her to face future challenges with confidence. Continuing the quest, Lila's path led her to a mysterious crossroads, guarded by a celestial gatekeeper. The gatekeeper offered two unique challenges, each granting different boons. \n\nFace the Trial of Courage or Solve the Puzzle of Wisdom? \n\n1. Face the Trial of Courage \n2. Solve the Puzzle of Wisdom"
             }
+        }
+    },
+    "3": {
+        "battle": true,
+        "enemy": {
+            "name": "Goblin",
+            "hp": 20,
+            "damage": 5
         }
     }
 }

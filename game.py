@@ -1,8 +1,10 @@
 import os
 import json
 from player import *
+from enemy import *
 from choices import *
 from skill import *
+from battle import *
 
 # with open("choices.json", "r") as f: data = json.load(f)
 # with open("prototype.json", "r") as f: data = json.load(f)
@@ -11,6 +13,7 @@ with open("proto2.json", "r") as f: data = json.load(f)
 choices = Choices(data)
 player = Player()
 
+prev = None
 game_end = False
 
 def clear():
@@ -39,7 +42,7 @@ def main():
 
         if player.new_skill == True: player.alert_new_skill()
 
-        if(choices.data.get("end") == True):
+        if choices.data.get("end") == True:
             print(choices.current_question)
 
             input("\nPress any key to continue...")
@@ -48,7 +51,21 @@ def main():
 
             break
 
+        if choices.data.get("battle") == True:
+            clear()
+
+            enemy_data = choices.data.get("enemy")
+
+            battle = Battle(player, Enemy(enemy_data.get("name"), enemy_data.get("hp"), enemy_data.get("damage")))
+
+            battle.init_battle(clear)
+
+            if battle.end: choices.current_question = prev
+        
         answer = input(choices.current_question + "\n\nChoice: ");
+
+        if answer == "3":
+            prev = choices.current_question
 
         choices.next_question(answer)
 
