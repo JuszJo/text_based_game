@@ -17,6 +17,12 @@
         "gains": {
             "type": "mp",
             "amount": 10
-        }
+        },
+        "skill": {
+            "name": "fireball",
+            "damage": 10,
+            "cost": 10
+        },
+        "q": "Testing"
     }
 }
